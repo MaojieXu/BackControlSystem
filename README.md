@@ -60,4 +60,3 @@ npm install
 npm run serve
 Access the System
 
-Open a browser and visit http://localhost:8080 to begin.
