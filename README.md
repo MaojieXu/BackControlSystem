@@ -31,7 +31,7 @@ This is a backend management system designed to manage articles, users, and arti
 ## Technology Stack
 
 - **Backend**: Spring Boot, MySQL, MyBatis
-- **Frontend**: Vue, Ant Design Vue
+- **Frontend**: Vue, Element plus
 - **Data Caching**: Redis
 - **File Storage**: Alibaba Cloud OSS
 - **API Documentation**: Knife4j
