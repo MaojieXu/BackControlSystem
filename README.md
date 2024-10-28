@@ -41,22 +41,21 @@ This is a backend management system designed to manage articles, users, and arti
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-Configure Backend Service
+   git clone https://github.com/MaojieXu/BackControlSystem.git
+   
+2. Configure Backend Service：
 
-Edit the application.yml file to set up the database, Redis, and Alibaba Cloud OSS configurations.
-Start Backend Service
+   Edit the application.yml file to set up the database, Redis, and Alibaba Cloud OSS configurations.
+   Start Backend Service
+    ``` bash
+   cd BackControlSystem-back
+   mvn spring-boot:run
 
-bash
-Copy code
-cd BackControlSystem-back
-mvn spring-boot:run
-Start Frontend Project
+3. Start Frontend Project：
 
-bash
-Copy code
-cd BackControlSystem-front
-npm install
-npm run serve
-Access the System
+    ``` bash
+   cd BackControlSystem-front
+   npm install
+   npm run serve
+   
 
